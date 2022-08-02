@@ -18,9 +18,10 @@ const ExerciseDetail = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
     const fetchExercisesData = async () => {
-      const exerciseDbUrl = 'https://exercisedb.p.rapidapi.com';
+      const exerciseDbUrl = 'https://exercisedb.p.rapidapi.com/?rapidapi-key=4ce6b6f506mshb923b7c41dd5aecp175edfjsndf5568c2a6e5';
+  
       const youtubeSearchUrl =
-        'https://youtube-search-and-download.p.rapidapi.com';
+        'https://youtube-search-and-download.p.rapidapi.com/?rapidapi-key=4ce6b6f506mshb923b7c41dd5aecp175edfjsndf5568c2a6e5';
 
       const exerciseDetailData = await fetchData(
         `${exerciseDbUrl}/exercises/exercise/${id}`,

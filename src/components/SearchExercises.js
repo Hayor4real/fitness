@@ -11,7 +11,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   useEffect(() => {
     const fetchExercisesData = async () => {
       const bodyPartsData = await fetchData(
-        'https://exercisedb.p.rapidapi.com/exercises/bodyPartList',
+        'https://exercisedb.p.rapidapi.com/?rapidapi-key=4ce6b6f506mshb923b7c41dd5aecp175edfjsndf5568c2a6e5',
         exerciseOptions
       );
 
@@ -25,7 +25,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   const handleSearch = async () => {
     if (search) {
       const exercisesData = await fetchData(
-        'https://exercisedb.p.rapidapi.com/exercises',
+        'https://exercisedb.p.rapidapi.com/rapidapi-key=4ce6b6f506mshb923b7c41dd5aecp175edfjsndf5568c2a6e5',
         exerciseOptions
       );
 

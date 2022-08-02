@@ -29,7 +29,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
           <a
             key={index}
             className='exercise-video'
-            href={`https://www.youtube.com/watch?v=${item.video.videoId}`}
+            href={`https://www.youtube.com/rapidapi-key=4ce6b6f506mshb923b7c41dd5aecp175edfjsndf5568c2a6e5`}
             target='_blank'
             rel='noreferrer'
           >
